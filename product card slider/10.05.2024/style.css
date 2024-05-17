@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: #3d3838;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 1100px;
+  height: 550px;
+  background-color: #1d1a1a;
+  display: flex;
+  
+}
+
+
+img{
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+.card-left{
+  width: 600px;
+  overflow:hidden;
+}
+.main-image{
+  display: flex;
+  transition: all 0.5s ease;
+
+}
+.img-select{
+  display: flex;
+  margin-top: 20px;
+  
+ 
+}
+.img{
+  border:5px solid rgb(11, 11, 11);
+  border-radius: 10px;
+
+}
+.active{
+  border-color: rgb(28, 240, 92);
+  border-radius: 12px;
+ 
+  
+}
+
+.card-right{
+  margin-top:40px;
+  padding: 50px;
+ 
+}
+
+.card-right h2{
+  font-weight: 400;
+  color:#fff;
+
+}
+
+.star{
+  margin-top:5px;
+  display: flex;
+  gap:20px;
+  cursor: pointer;
+}
+.star-group ion-icon{
+  color:rgba(221, 197, 197, 0.3)
+}
+.star-group ion-icon:nth-child(1),
+.star-group ion-icon:nth-child(2),
+.star-group ion-icon:nth-child(3)
+{
+color:gold;
+}
+ span{
+  color:rgb(23, 245, 12);
+}
+
+.card-right h4{
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  color:#fff;
+}
+
+.card-right h4 span{
+  text-decoration: line-through;
+  color:rgb(210, 32, 32);
+  font-size:15px;
+  padding-left: 15px;
+ 
+}
+
+.card-right p{
+  margin: 15px 0;
+  
+  padding:10px 0 ;
+  color:#fff;
+}
+
+.form{
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.form-group label{
+  color:#fff;
+}
+.form-group select
+{
+display: block;
+color:rgb(8, 8, 79);
+
+}
+
+.form-group select{
+  width: 150px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.input-group{
+display:flex;
+width: 220px;
+height: 30px;
+}
+.input-group input{
+  width: 50px;
+  border: 1px solid #ccc;
+  outline: none;
+  padding-left:20px ;
+  font-size: 18px;
+}
+.input-group button{
+  width: 30px;
+  outline: none;
+  border: none;
+  background-color: #111;
+  color:#fff;
+}
+
+.btn-cart{
+  width: 150px;
+  height: 40px;
+  border: none;
+  outline: none;
+  color:#fff;
+  background-color: #FF8401;
+  font-size: 16px;
+  border-radius: 6px;
+  margin-top:10px;
+  
+}
